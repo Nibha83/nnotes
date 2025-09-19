@@ -2,6 +2,9 @@
 name = "nnotes"
 version = "0.1.0"
 edition = "2024"
+description = "A fast and simple notes CLI"
+license = "MIT"
+repository = "https://github.com/Nibha83/nnotes.git"
 
 [dependencies]
 clap = { version = "4.5.47", features = ["derive"]}

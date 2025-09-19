@@ -1,0 +1,12 @@
+[package]
+name = "nnotes"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.47", features = ["derive"]}
+dirs = "6.0.0"
+serde = { version = "1.0.225", features = ["derive"] }
+serde_json = "1.0.145"
+tantivy = "0.25.0"
+uuid = "1.18.1"
